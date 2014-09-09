@@ -1,12 +1,9 @@
 .container > div {
   height: 100px;
   width: 100px;
-  background: red;
+  background: #ff0000;
   float: left;
   margin: 5px 5px;
-}
-.blue {
-  background: blue;
 }
 .container > div:nth-child(17) {
   clear:both;

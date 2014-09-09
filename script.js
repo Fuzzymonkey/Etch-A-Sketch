@@ -9,9 +9,9 @@ $(document).ready(function(){
 
 $(document).ready(function(){
   $('.grid-item').mouseenter(function(){
-    $(this).css("background", "blue");
+    $('.grid-item').animate({backgroundColor:"#345623"}, 500);
   })
   $('.grid-item').mouseleave(function(){
-    $(this).css("background", "purple");
+    $('.grid-item').animate({"background-color":"yellow"}, 500);
   })
 });
